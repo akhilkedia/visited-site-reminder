@@ -1,0 +1,20 @@
+{
+  "name": "Visited Site Reminder",
+  "description": "Reminds you by icon change if the website was ever visited",
+  "version": "2.0",
+  "permissions": [
+    "activeTab",
+    "history",
+    "tabs",
+    "webNavigation"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+     "default_icon": "GreenClock.png",
+    "default_title": "Reminds you by icon change if the website was ever visited"
+  },
+  "manifest_version": 2
+}
